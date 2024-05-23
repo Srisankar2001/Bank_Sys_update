@@ -1,0 +1,38 @@
+.user_all_deposit_container {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center; /* Center align the content */
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.user_all_deposit_table {
+    width: 80%;
+    margin: 0 auto; /* Center align the table */
+    border-collapse: collapse;
+}
+
+.user_all_deposit_table_head_row {
+    background-color: #f2f2f2;
+}
+
+.user_all_deposit_table_body_row {
+    transition: background-color 0.3s ease;
+}
+
+.user_all_deposit_table_body_row:hover {
+    background-color: #f0f0f0;
+}
+
+.user_all_deposit_table_head_col,
+.user_all_deposit_table_body_col {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.user_all_deposit_message {
+    font-style: italic;
+    color: #888; /* Light gray color */
+    padding: 10px 0; /* Add some padding */
+}

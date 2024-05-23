@@ -1,0 +1,49 @@
+/* navbar.css */
+
+.navbar_container {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; /* Adjust the height as needed */
+  }
+  
+  .navbar_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Align links to the left */
+  }
+  
+  .navbar_list {
+    display: block; /* Display links as block elements */
+    margin: 10px 0; /* Add some vertical margin between links */
+  }
+  
+  .navbar_list a {
+    display: block; /* Display links as block elements */
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar_list a:hover {
+    background-color: #555;
+  }
+  
+  /* Active link */
+  .navbar_list a.active {
+    background-color: #4CAF50;
+  }
+  
+  /* Logout link */
+  .navbar_list a.logout {
+    background-color: #f44336;
+  }
+  
+  .navbar_list a.logout:hover {
+    background-color: #d32f2f;
+  }
+  

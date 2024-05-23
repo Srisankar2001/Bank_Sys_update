@@ -1,0 +1,88 @@
+.user_transfer_container {
+    width: 60%;
+    padding-left: 200px;
+    max-width: 600px;
+    min-height: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.user_transfer_heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center; /* Center the heading */
+}
+
+.user_transfer_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_transfer_input_div {
+    margin-bottom: 15px;
+}
+
+.user_transfer_input_label {
+    font-weight: bold;
+}
+
+.user_transfer_input_field {
+    width: calc(100% - 10px); /* Set the width to 100% minus the padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+.user_transfer_input_field:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color on focus */
+}
+
+.user_transfer_input_error {
+    color: red;
+    margin-top: 5px;
+}
+
+.user_transfer_button_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_transfer_button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smoother button interaction */
+}
+
+.user_transfer_button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+.user_transfer_button[type="submit"]:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+
+.user_transfer_button[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.user_transfer_button[type="reset"]:hover {
+    background-color: #c82333; /* Darken background color on hover */
+}

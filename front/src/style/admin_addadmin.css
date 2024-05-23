@@ -1,0 +1,100 @@
+.admin_addadmin_container {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.admin_addadmin_heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.admin_addadmin_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    width: 100%; /* Ensure the form takes up the full width of the container */
+    max-width: 500px; /* Set a maximum width for the form */
+}
+
+.admin_addadmin_input_div {
+    width: 100%;
+    margin: auto;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin_addadmin_input_label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+    flex: 0 0 100%;
+}
+
+.admin_addadmin_input_field {
+    width: 100%; /* Adjusted to take full width */
+    max-width: 300px; /* Set a maximum width for all input fields */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.admin_addadmin_input_error {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.admin_addadmin_button_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin_addadmin_submitbutton,
+.admin_addadmin_resetbutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin_addadmin_submitbutton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.admin_addadmin_resetbutton {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.admin_addadmin_submitbutton:hover,
+.admin_addadmin_resetbutton:hover {
+    background-color: #0056b3;
+}
+
+.admin_addadmin_button_div input[type="reset"] {
+    margin-left: 10px;
+}

@@ -1,0 +1,56 @@
+.admin_allunblockeduser_container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center; /* Center align the content */
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.admin_allunblockeduser_heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.admin_allunblockeduser_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin_allunblockeduser_table th,
+.admin_allunblockeduser_table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.admin_allunblockeduser_table_head_row {
+    background-color: #f4f4f4;
+}
+
+.admin_allunblockeduser_table_body_row:hover {
+    background-color: #f0f0f0;
+}
+
+.admin_allunblockeduser_table_body_col {
+    vertical-align: middle;
+}
+
+.admin_allunblockeduser_button_block{
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #ee1136;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+
+.admin_allunblockeduser_button_block:hover{
+    background-color: #999;
+}
